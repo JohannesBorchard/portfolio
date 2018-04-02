@@ -241,7 +241,7 @@ form textarea {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .menu {
         flex-direction: column;
         margin-top: 40px;
@@ -258,8 +258,12 @@ form textarea {
 
     .intro {
         font-size: 18px;
+        width: 300px;
     }
 
+    br {
+    	display: none;
+	}
 
     .text-short {
         font-size: 18px;
@@ -275,12 +279,12 @@ form textarea {
     }
 
     .profile {
-        width: 300px;
+        width: 280px;
     }
 
     .grid {
         grid-template-columns: 1fr;
-        width: 300px;
+        width: 280px;
         align-items: center;
         justify-content: center;
         margin-right: 10%;
