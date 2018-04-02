@@ -1,0 +1,175 @@
+body, a {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-stretch: normal;
+    font-size: 18px;
+    color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #4f4f4f;
+}
+
+h1 {
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    font-stretch: normal;
+}
+
+.btn {
+	height: 60px;
+	background-color: #f26661;
+	color: #ffffff;
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 40px;
+}
+
+.btn:hover {
+	background-color: #FF8D8A;
+	color: #ffffff;
+}
+
+.btn-standalone {
+	margin-top: 160px;
+	font-size: 24px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 40px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    font-stretch: normal;
+}
+
+.menu-item-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.active {
+	color: #f26661;
+}
+
+.intro {
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+.grid {
+	display: grid;
+	/*grid-template-columns: 280px 280px 280px;*/
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+    margin-top: 160px;
+    width: 920px;
+}
+
+.preview {
+	background-color: #bdbdbd;
+	height: 280px;
+	width: 280px;
+}
+
+.wide {
+	width: 600px;
+	grid-column: span 2;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 160px;
+	margin-bottom: 80px;
+}
+
+.footer-item-group {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-item-grey {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #bdbdbd;
+	margin-top: 20px;
+}
+
+.profile {
+	margin-top: 160px;
+	width: 480px;
+}
+
+.text-short {
+	font-size: 28px;
+	width: 800px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.text-short-standalone {
+	margin-top: 160px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 160px;
+}
+
+form input {
+	width: 400px;
+	height: 50px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border: solid #bdbdbd 1px;
+	border-radius: 4px;
+}
+
+form textarea {
+	width: 400px;
+	resize: vertical;
+	padding-left: 20px;
+	padding-bottom: 200px;
+	padding-top: 20px;
+	border: solid #bdbdbd 1px;
+	border-radius: 4px;
+}
+
+#message {
+	
+}
