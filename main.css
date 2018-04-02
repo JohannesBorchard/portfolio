@@ -276,6 +276,10 @@ form textarea {
         margin-top: 80px;
     }
 
+    form input, form textarea {
+    	width: 280px;
+    }
+
     .btn-standalone {
         margin-top: 80px;
     }
