@@ -176,6 +176,7 @@ form {
     flex-direction: column;
     align-items: center;
     margin-top: 160px;
+    box-shadow: none !important;
 }
 
 ::placeholder {
