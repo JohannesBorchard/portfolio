@@ -114,6 +114,7 @@ h1 {
     height: 220px;
 }
 
+
 /*.grid-item-one {
     background-color: rgba(6, 67, 124, 0.2);
 }
@@ -208,26 +209,9 @@ form textarea {
     box-shadow: none !important;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1112px) {
     .intro {
         font-size: 24px;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-        width: 500px;
-        align-items: center;
-        justify-content: center;
-
-        margin-top: 80px;
-    }
-
-
-
-    .preview {
-        grid-column: span 1;
-        width: 500px;
-        height: 500px;
     }
 
     h1 {
@@ -245,7 +229,26 @@ form textarea {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
+    .grid {
+        grid-template-columns: 1fr;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 80px;
+    }
+
+
+
+    .preview {
+        grid-column: span 1;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .menu {
         flex-direction: column;
         margin-top: 40px;
@@ -266,8 +269,8 @@ form textarea {
     }
 
     br {
-    	display: none;
-	}
+        display: none;
+    }
 
     .text-short {
         font-size: 18px;
@@ -278,8 +281,9 @@ form textarea {
         margin-top: 80px;
     }
 
-    form input, form textarea {
-    	width: 280px;
+    form input,
+    form textarea {
+        width: 280px;
     }
 
     .btn-standalone {
@@ -312,10 +316,10 @@ form textarea {
     }
 
     .footer-item-group {
-    	width: 280px;
+        width: 280px;
     }
 
     .footer-item:first-child {
-    	margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
