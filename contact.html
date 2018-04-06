@@ -4,29 +4,33 @@ title: Kontakt
 permalink: /contact
 ---
 
-<div class = "menu">
+<nav>
 	<a href="/" class = "logo">Johannes Borchard</a>
 	<div class = "menu-item-group">
 		<a href="/" class = "menu-item">Arbeit</a>
 		<a href="/about" class = "menu-item">Person</a>
 		<a href="/contact" class = "menu-item active">Kontakt</a>
 	</div>
-</div>
+</nav>
 
-<div class = "content">
+<header>
 	<h1>Sag hallo!</h1>
+	
 	<p class = "text-short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+</header>
 
-	<form action="https://formspree.io/hello@johannesborchard.de"
-      method="POST">
+<main>
+		<form action="https://formspree.io/hello@johannesborchard.de"
+	      method="POST">
 
-      <!-- <form action="https://getsimpleform.com/messages?form_api_token=926878f6709131ac307d5507150917ee" method="POST"> -->
-      	<input type="hidden" name="_next" value="/" />
-      	<!-- <input type='hidden' name='redirect_to' value='//www.johannesborchard.de/about' /> -->
-		<input type="text" name="name" placeholder="Name" id = "name" required>
-		<input type="email" name="_replyto" placeholder="E-Mail" id = "mail" required>
-		<textarea name="message" placeholder="Worum geht es?" id="message" required></textarea>
-		
-		<button id="contact-request" class ="btn">Nachricht senden</button>
-	</form>
-</div>
+	      <!-- <form action="https://getsimpleform.com/messages?form_api_token=926878f6709131ac307d5507150917ee" method="POST"> -->
+	      	<input type="hidden" name="_next" value="/" />
+	      	<!-- <input type='hidden' name='redirect_to' value='//www.johannesborchard.de/about' /> -->
+			<input type="text" name="name" placeholder="Name" id = "name" required>
+			<input type="email" name="_replyto" placeholder="E-Mail" id = "mail" required>
+			<textarea name="message" placeholder="Worum geht es?" id="message" required></textarea>
+			
+			<button id="contact-request">Nachricht senden</button>
+		</form>
+
+</main>
