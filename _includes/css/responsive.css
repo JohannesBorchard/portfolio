@@ -65,6 +65,10 @@
         display: none;
     }
 
+    .text {
+        width: 80%;
+    }
+
     .text-short {
         font-size: 18px;
     }
