@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.footer-item-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-item-grey {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-top: 20px;
+}

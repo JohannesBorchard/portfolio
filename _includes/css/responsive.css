@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1112px) {
+    .intro {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .profile {
+        margin-top: 80px;
+        width: 400px;
+    }
+
+    .text-short {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .text-short a {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .grid {
+        grid-template-columns: 1fr;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main>* {
+        margin-top: 80px;
+    }
+
+    .preview {
+        grid-column: span 1;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .logo,
+    .menu-item-group {
+        margin: 0 !important;
+    }
+
+    .menu-item:last-child {
+        margin-right: 0;
+    }
+
+    .intro {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .text-short {
+        font-size: 18px;
+    }
+
+    .text-short a {
+        font-size: 18px;
+    }
+
+    form>input,
+    form>textarea {
+        width: 280px;
+    }
+
+    .profile {
+        width: 280px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        width: 280px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .preview {
+        grid-column: span 1;
+        width: 280px;
+        height: 280px;
+    }
+
+    .footer {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .footer-item-group {
+        width: 280px;
+    }
+
+    .footer-item:first-child {
+        margin-bottom: 20px;
+    }
+}
