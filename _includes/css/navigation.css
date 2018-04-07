@@ -10,7 +10,7 @@ nav a:hover {
     color: #4f4f4f;
 }
 
-.logo {
+h1 {
     white-space: nowrap;
     margin-left: 40px;
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;

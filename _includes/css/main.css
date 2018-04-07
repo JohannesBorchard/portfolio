@@ -19,13 +19,14 @@ main>* {
     margin-top: 160px;
 }
 
-h1 {
+h2 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
     font-size: 48px;
+    margin: none;
 }
 
-h2 {
+h3 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 400;
     font-size: 32px;
