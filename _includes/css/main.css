@@ -85,29 +85,16 @@ button:hover {
     width: 920px;
 }
 
-.preview {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #bdbdbd;
+.grid img {
     height: 280px;
-    width: 280px;
 }
 
-.preview img {
-    height: 220px;
-}
-
-/*.grid-item-one {
-    background-color: rgba(6, 67, 124, 0.2);
-}
-
-.grid-item-two {
-    background-color: rgba(235, 22, 94, 0.2);
+/*.grid img:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }*/
 
 .wide {
-    width: 600px;
     grid-column: span 2;
 }
 

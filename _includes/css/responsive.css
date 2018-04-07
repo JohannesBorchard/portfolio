@@ -30,14 +30,17 @@
         justify-content: center;
     }
 
-    main>* {
-        margin-top: 80px;
+    .grid img {
+        height: auto;
+        width: 100%;
     }
 
-    .preview {
-        grid-column: span 1;
-        width: 500px;
-        height: 500px;
+    .wide {
+    grid-column: span 1;
+    }
+
+    main>* {
+        margin-top: 80px;
     }
 }
 
@@ -95,10 +98,9 @@
         margin-left: 10%;
     }
 
-    .preview {
-        grid-column: span 1;
-        width: 280px;
-        height: 280px;
+    .wide {
+    width: 280px;
+    height: auto;
     }
 
     .footer {
