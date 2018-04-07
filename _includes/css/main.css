@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -23,7 +27,7 @@ h2 {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
     font-size: 48px;
-    margin: none;
+    margin: 0px;
 }
 
 h3 {
@@ -39,6 +43,7 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #333333;
+    margin-bottom: 0px;
 }
 
 p>a {
@@ -89,6 +94,7 @@ button:hover {
 .grid img {
     height: 280px;
 }
+
 
 /*.grid img:hover {
     opacity: 0.5;
