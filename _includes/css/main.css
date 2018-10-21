@@ -97,7 +97,7 @@ button:hover {
     width: 920px;
 }
 
-.grid img {
+.normal {
     height: 280px;
 }
 
@@ -114,14 +114,14 @@ button:hover {
 
 .long {
     grid-row: span 2;
-    height: 600px !important;
+    height: 600px;
 }
 
 .large {
     grid-column: span 2;
     grid-row: span 2;
-    width: 600px !important;
-    height: 600px !important;
+    width: 600px;
+    height: 600px;
 }
 
 

@@ -44,10 +44,6 @@
         grid-row: span 1;
     }
 
-    /*.long {
-        grid-row: span 2;
-    }*/
-
     main>* {
         margin-top: 80px;
     }
@@ -105,11 +101,6 @@
         justify-content: center;
         margin-right: 10%;
         margin-left: 10%;
-    }
-
-    .wide {
-    width: 280px;
-    height: auto;
     }
 
     .footer {
