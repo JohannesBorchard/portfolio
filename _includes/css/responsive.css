@@ -30,7 +30,7 @@
         justify-content: center;
     }
 
-    .grid img {
+    .grid img, .grid a {
         height: auto !important;
         width: 100%;
     }
@@ -43,6 +43,10 @@
         grid-column: span 1;
         grid-row: span 1;
     }
+
+    /*.long {
+        grid-row: span 2;
+    }*/
 
     main>* {
         margin-top: 80px;
