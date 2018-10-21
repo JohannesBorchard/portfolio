@@ -102,13 +102,26 @@ button:hover {
 }
 
 
-/*.grid img:hover {
+.grid a img:hover {
     opacity: 0.5;
     cursor: pointer;
-}*/
+}
 
 .wide {
     grid-column: span 2;
+    width: 600px;
+}
+
+.long {
+    grid-row: span 2;
+    height: 600px !important;
+}
+
+.large {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 600px !important;
+    height: 600px !important;
 }
 
 

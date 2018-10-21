@@ -31,12 +31,17 @@
     }
 
     .grid img {
-        height: auto;
+        height: auto !important;
         width: 100%;
     }
 
     .wide {
-    grid-column: span 1;
+        grid-column: span 1;
+    }
+
+    .large {
+        grid-column: span 1;
+        grid-row: span 1;
     }
 
     main>* {
