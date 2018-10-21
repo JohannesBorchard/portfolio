@@ -35,6 +35,11 @@
         width: 100%;
     }
 
+    .grid a img:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
     .wide {
         grid-column: span 1;
     }
