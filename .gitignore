@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 /_site
 .DS_Score
+/assets/.DS_Store
+/.DS_Store
