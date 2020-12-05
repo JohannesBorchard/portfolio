@@ -54,16 +54,16 @@ a {
 
 p>a {
     font-size: 28px;
-    color: #f26661;
+    color: #2774AE;
 }
 
 p>a:hover {
-    color: #FF8D8A;
+    color: #6daede;
 }
 
 button {
     height: 60px;
-    background-color: #f26661;
+    background-color: #2774AE;
     color: #ffffff;
     font-size: 24px;
     border: none;
@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF8D8A;
+    background-color: #6daede;
     color: #ffffff;
     cursor: pointer;
 }
